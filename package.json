@@ -4,17 +4,30 @@
   "author": "",
   "license": "MIT",
   "version": "0.0.1",
-  "main": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 2",
     "prepare": "husky"
   },
   "dependencies": {
-    "polyapi": "develop",
+    "polyapi": "^0.25.17",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
   },
   "devDependencies": {
     "husky": "^9.1.6"
-  }
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danijeldragicevic/poly-cicd-demo.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/danijeldragicevic/poly-cicd-demo/issues"
+  },
+  "homepage": "https://github.com/danijeldragicevic/poly-cicd-demo#readme"
 }
